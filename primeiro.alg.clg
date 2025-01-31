@@ -1,0 +1,31 @@
+algoritmo pessoa;
+// Síntese
+//  Objetivo: Coletar os dados de uma pessoa  
+//  Entrada : Nome, idade, endereço e email
+//  Saída   : Mensagem contendo o nome e a idade 
+
+
+principal
+	// Declarações
+texto nome, endereco, email; 
+inteiro idade;
+	// Instruções
+	escreva ("Digite seu nome: ");
+    leia(nome);
+    
+    escreva ("Digite sua idade: ");
+    leia(idade);
+
+    escreva ("Digite seu email: "); 
+    leia(email);
+    
+    escreva ("Digite seu endereço: ");
+    leia(endereco);
+    // Saída de dados
+    escreva("Seu nome é ", nome, "e você tem ", idade, " anos. ");
+    escreva("E seu email é ", email); 
+    escreva(" Endereço: ", endereco);
+    
+
+
+fimPrincipal
